@@ -1,0 +1,73 @@
+/* Universal */
+
+html, 
+body, 
+main {
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: blue;
+}
+
+.section {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+}
+
+.header,
+.footer {
+    margin: 2rem;
+}
+
+/* Header */
+
+.header {
+    padding: 1rem;
+}
+
+.header h1,
+.header h3 {
+    margin: 1rem;
+}
+
+.header h1 {
+    min-width: 34%;
+}
+
+/* Footer */
+
+.footer {
+    padding: 0.25rem;
+}
+
+/* Features */
+
+.feature-section {
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-title {
+    margin-top: 1rem;
+}
+
+.feature-gallery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.frame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+/* Media Queries */
