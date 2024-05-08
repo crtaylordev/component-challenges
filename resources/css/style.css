@@ -4,11 +4,17 @@ html,
 body, 
 main {
     width: 100%;
-    font-family: 'Courier New', Courier, monospace;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    color: #0C2D48;
+    background-color: #145DA0;
+}
+
+a {
+    color: #145DA0;
+    font-weight: 700;
 }
 
 .section {
@@ -16,12 +22,17 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: aliceblue;
+    background-color: #B1D4E0;
 }
 
 .header,
 .footer {
     margin: 2rem;
+}
+
+.header-text,
+.feat-link {
+    font-size: 1.15rem;
 }
 
 /* Header */
@@ -31,18 +42,26 @@ main {
 }
 
 .header h1,
-.header h3 {
+.header-text {
     margin: 1rem;
 }
 
 .header h1 {
-    min-width: 34%;
+    min-width: 35%;
+}
+
+.header-text {
+    font-weight: 700;
 }
 
 /* Footer */
 
 .footer {
     padding: 0.25rem;
+}
+
+.attribution {
+    font-weight: 700;
 }
 
 /* Features */
@@ -68,6 +87,10 @@ main {
     flex-direction: column;
     align-items: center;
     padding: 1rem;
+}
+
+.feat-image:hover {
+    opacity: 75%;
 }
 
 /* Media Queries */
