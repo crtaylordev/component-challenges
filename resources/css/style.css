@@ -93,4 +93,12 @@ a {
     opacity: 75%;
 }
 
+.feat-deets {
+    text-align: center;
+}
+
+.feat-deets p {
+    font-weight: 700;
+}
+
 /* Media Queries */
