@@ -28,11 +28,12 @@ a:hover {
     align-items: center;
     justify-content: center;
     background-color: #B1D4E0;
+    margin-top: 2rem;
 }
 
 .header,
 .footer {
-    margin: 2rem;
+    margin-top: 2rem;
 }
 
 .header-text,
@@ -63,9 +64,11 @@ a:hover {
 
 .footer {
     padding: 0.25rem;
+    margin-bottom: 2rem;
 }
 
 .attribution {
+    margin: 0 0.5rem;
     font-weight: 700;
 }
 
@@ -131,5 +134,9 @@ a:hover {
         font-size: 1.25rem;
     }
 
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
 
 }
