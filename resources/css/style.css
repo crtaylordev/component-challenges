@@ -28,12 +28,12 @@ a:hover {
     align-items: center;
     justify-content: center;
     background-color: #B1D4E0;
-    margin-top: 2rem;
 }
 
+.section,
 .header,
 .footer {
-    margin-top: 2rem;
+    margin-top: 1.5rem;
 }
 
 .header-text,
@@ -95,6 +95,10 @@ a:hover {
     flex-direction: column;
     align-items: center;
     padding: 1rem;
+}
+
+.landing-frame {
+    padding: 0.5rem;
 }
 
 .feat-image:hover {
